@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['miniz_40994',['miniz',['../group__miniz.html',1,'']]]
+  ['langapi_41795',['langapi',['../group__langapi.html',1,'']]],
+  ['linking_41796',['linking',['../group__linking.html',1,'']]]
 ];
