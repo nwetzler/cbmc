@@ -142,7 +142,7 @@ int s2n_mem_init()
     return 0;
 }
 
-void s2n_mem_init_nondet() {
+void nondet_s2n_mem_init() {
   if (nondet_bool()) {
     s2n_mem_init();
   }
@@ -796,7 +796,7 @@ void s2n_record_writev_harness()
   size_t to_write;
 
   /* Extra assumptions. */
-  s2n_mem_init_nondet();
+  nondet_s2n_mem_init();
 
   /* Initialize s2n_fips_mode nondetermistically. Check stub for
    * details */
